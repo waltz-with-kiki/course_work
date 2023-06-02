@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+    <html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8">
+    <title>Поиск по CSV-файлу</title>
+    
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Поиск по CSV-файлу</h1>
+    <header>
+    <input type="text" id="search-input" placeholder="Введите поисковый запрос">
+    <button onclick="search()">Искать</button>
+    </header>
+
+    <div class="widget-search-csv">
+    <table id="csv-table"></table>
+</div>
+    
+    
+    <script src="main.js"></script>
+    
+  </body>
+</html>
